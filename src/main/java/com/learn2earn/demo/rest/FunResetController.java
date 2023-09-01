@@ -11,4 +11,9 @@ public class FunResetController {
     public String sayHello(){
         return "Hello World!";
     }
+
+    @GetMapping("/bye")
+    public String sayBye(){
+        return "Bye :)!";
+    }
 }
